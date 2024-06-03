@@ -26,3 +26,16 @@ recover=flash_recover;00.00.06
 apps=flash_apps;00.00.02
 threshold=threshold.conf;00.00.10
 ```
+`https://ota.hubble.in/ota1/0599_patch/version_dev.txt`
+
+```
+version=03.30.07
+bootcode=flash_bc;00.00.02
+uboot=flash_uboot;00.00.07
+uboot2=flash_uboot2;00.00.07
+kernel=flash_uImage;00.00.15
+rootfs=flash_rootfs;00.00.42
+recover=flash_recover;00.00.06
+apps=flash_apps;00.00.02
+threshold=threshold.conf;00.00.10
+```
