@@ -36,3 +36,17 @@ none on /etc type tmpfs (rw,relatime)
 /dev/mtdblock10 on /mnt/hconfig type yaffs2 (rw,relatime)   "hconfig"
 /dev/mtdblock11 on /mnt/cache type yaffs2 (rw,relatime)     "cache"
 ```
+```
+1M(uboot),    mtd0
+2M(config), cfgfs=/dev/mtdblock1
+3M(kernel0),  mtd2
+7M(rootfs0),  mtd3
+17M(app0),  app0=/dev/mtdblock4
+17M(app1),  app1=/dev/mtdblock5
+3M(kernel1),  mtd6
+7M(rootfs1),  mtd7
+16M(3rd0), 3rd0=/dev/mtdblock8
+16M(3rd1), 3rd1=/dev/mtdblock9
+3M(hconfig),  mtd10
+36M(cache)    mtd11
+```
