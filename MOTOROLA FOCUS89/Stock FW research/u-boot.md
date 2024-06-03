@@ -30,3 +30,40 @@ last_boot_status=1
 
 Environment size: 823/131068 bytes
 ```
+```
+APEXIS # help
+?       - alias for 'help'
+base    - print or set address offset
+bootm   - boot application image from memory
+cmp     - memory compare
+cp      - memory copy
+crc32   - checksum calculation
+ddr     - ddr training function
+echo    - echo string
+fatinfo - print information about filesystem
+fatload - load binary file from a dos filesystem
+fatls   - list files in a directory (default /)
+getinfo - print hardware information
+go      - start application at address 'addr'
+help    - print command description/usage
+loadb   - load binary file over serial line (kermit mode)
+loady   - load binary file over serial line (ymodem mode)
+loop    - infinite loop on address range
+md      - memory display
+mm      - memory modify (auto-incrementing address)
+mmc     - MMC sub system
+mmcinfo - mmcinfo <dev num>-- display MMC info
+mtest   - simple RAM read/write test
+mw      - memory write (fill)
+nand    - NAND sub-system
+nboot   - boot from NAND device
+nm      - memory modify (constant address)
+printenv- print environment variables
+reset   - Perform RESET of the CPU
+run     - run env_var
+saveenv - save environment variables to persistent storage
+setenv  - set environment variables
+sf      - SPI flash sub-system
+version - print monitor version
+wdt     - wdt 0/1
+```
