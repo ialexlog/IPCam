@@ -1,4 +1,5 @@
 `# /3rd/usr/local/bin/nvconf`
+
 ```
 Usage: /3rd/usr/local/bin/nvconf [command] [NAME] [VALUE]
 command:
@@ -9,6 +10,7 @@ command:
 ```
 
 `# export LD_LIBRARY_PATH=/usr/local/lib:/lib:/usr/lib:/3rd/usr/local/lib`
+
 `# /3rd/usr/local/bin/nvconf all`
 ```
 ### /mnt/config/hubble_config/user.conf
